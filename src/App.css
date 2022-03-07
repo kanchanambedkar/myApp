@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.table-input-group{
+  max-width: 400px;
+  text-align: left;
+}
+.editIcon, .deleteIcon{
+  cursor: pointer;
+}
+.save-btn.btn-info, .save-btn.btn-info:hover, .cancel-btn.btn-danger , .cancel-btn.btn-danger:hover{
+  color: #fff;
+  font-weight: 700;
+  padding: 3px 10px;
+  font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table{
+  table-layout: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menus{
+  background-color: #000;
+  padding: 10px 0px;
+}
+.menus li span{
+  color: #fff;
+  font-size: 20px;
+  margin: 0px 40px;
+  transition: all .3s ease-in-out;
+  padding: 0;
+  cursor: pointer;
+}
+.menus li span:hover{
+  color: #fff;
+  border-bottom: 1px solid #fff;
 }
 
-.App-header {
-  background-color: #282c34;
+
+/* =======form-css===== */
+.login-form form {
+  background-color: #fff;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 35px;
+}
+
+.login-form {
+  background-color: #f7f7f7;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
